@@ -1,0 +1,343 @@
+/* documentation css start */
+
+/* main section css */
+
+.main-section {
+  /* position: relative; */
+  margin-top: 48px;
+  height: 100vh;
+  width: 100%;
+  background-color: #8f9cf3;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+/* left side navbar start*/
+.main-section .left-section {
+  position: absolute;
+  width: 18%;
+  height: 100vh;
+  background-color: white;
+  margin: 2px;
+  left: 0px;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+@media (max-width: 780px) {
+  .main-section .left-section {
+    visibility: hidden;
+  }
+}
+
+.doc-text h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(12, 63, 131);
+  line-height: 0px;
+  padding: 0px;
+  margin: 15px;
+}
+
+.topbar {
+  left: 30px;
+  top: 10px;
+  position: absolute;
+  height: 48px;
+  width: 150px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.topbar ul {
+  list-style: none;
+  display: flex;
+  margin: 10px 0 0;
+  padding: 0;
+  margin: 0;
+}
+
+#boxes {
+  width: 12px;
+  height: 12px;
+  margin: 3px;
+  border-radius: 100%;
+  cursor: "pointer";
+}
+.box-1 {
+  background-color: #000383;
+}
+.box-2 {
+  background-color: #0e38ae;
+}
+.box-3 {
+  background-color: #1974d1;
+}
+.box-4 {
+  background-color: #5a6de9;
+}
+.box-5 {
+  background-color: #9a73ce;
+}
+.box-6 {
+  background-color: #af83de;
+}
+.box-7 {
+  background-color: #dab7eb;
+}
+
+/* list-1 css */
+.list-1 {
+  position: absolute;
+  /* background-color: red; */
+  top: 80px;
+}
+.logo-icon {
+  height: 30px;
+  width: 30px;
+  background-color: azure;
+  border-radius: 4px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list-1 h3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-left: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.list-1 ul {
+  list-style: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.list-1 ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.list-1 ul li {
+  margin: 8px;
+  padding: 7px;
+
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.list-1 ul li:hover:not(.active) {
+  background-color: rgb(219, 219, 242);
+}
+
+.list-1 ul li.active {
+  width: fit-content;
+  border-radius: 7px;
+  background-color: rgb(232, 219, 243);
+}
+.list-1 hr {
+  border: 0.1px solid rgb(187, 188, 223);
+}
+
+/* list-2 css */
+
+.list-2 {
+  position: absolute;
+  /* background-color: red; */
+  top: 290px;
+}
+
+.list-2 h3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-left: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.list-2 ul {
+  list-style: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.list-2 ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.list-2 ul li {
+  margin: 6px;
+  padding: 7px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.list-2 ul li:hover:not(.active) {
+  background-color: rgb(219, 219, 242);
+}
+
+.list-2 ul li.active {
+  width: fit-content;
+  border-radius: 7px;
+  background-color: rgb(232, 219, 243);
+}
+
+/* scrollbar css */
+
+.left-section::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.left-section::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 5px;
+}
+
+/* Handle */
+.left-section::-webkit-scrollbar-thumb {
+  background: rgb(126, 126, 231);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.left-section::-webkit-scrollbar-thumb:hover {
+  background: #580ad6;
+}
+/* left side navbar ends*/
+
+/* center section starts*/
+.center-section {
+  position: absolute;
+  width: 66.5%;
+  height: 100vh;
+  background-color: rgb(188, 190, 235);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 3px;
+  margin-right: -43px;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+.center-section h1,
+h2 {
+  color: #0e0f46;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #acadeb;
+}
+.center-section .intro {
+  width: 95%;
+  height: 100%;
+  padding: 20px;
+}
+/* center scrollbar css start */
+.center-section::-webkit-scrollbar {
+  width: 14px;
+}
+
+/* Track */
+.center-section::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 9px white;
+  border-radius: 8px;
+}
+
+/* Handle */
+.center-section::-webkit-scrollbar-thumb {
+  background: rgb(234, 235, 240);
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+.center-section::-webkit-scrollbar-thumb:hover {
+  background: rgb(54, 13, 165);
+}
+
+/* center scrollbar css end */
+
+/* center section ends*/
+
+/* right section starts*/
+.main-section .right-section {
+  right: 0px;
+  position: absolute;
+  width: 15%;
+  height: 100vh;
+  background-color: rgb(165, 196, 255);
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+@media (max-width: 980px) {
+  .main-section .right-section {
+    visibility: hidden;
+  }
+}
+.line {
+  height: 2px;
+  width: 150px;
+  background-image: linear-gradient(to right, #6640ed, rgb(138, 78, 178));
+}
+.right-sec-cont {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.right-sec-cont h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 9px 0px;
+  color: rgb(39, 36, 36);
+}
+/* right section ends*/
+
+/* introduction doc -css start */
+.heading-1 h1 {
+  color: #0e0f46;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #8292f8;
+}
+#introduction-docs {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.intro-list {
+  display: flex;
+}
+.intro-pic img {
+  height: 300px;
+  width: 300px;
+  animation: animate-2 1s linear infinite;
+}
+@keyframes animate-2 {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  25% {
+    filter: hue-rotate(10deg);
+  }
+  50% {
+    filter: hue-rotate(20deg);
+  }
+  100% {
+    filter: hue-rotate(-10deg);
+  }
+}
+#introduction-docs h2 {
+  color: #0e0f46;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #8292f8;
+}
+/* introduction doc -css end */

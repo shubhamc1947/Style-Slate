@@ -1,0 +1,111 @@
+/* introduction docs css start */
+
+
+.heading-1 h1{
+    color:#0e0f46;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #acadeb;
+  }
+  #introduction-docs{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .intro-list{
+    display: flex;
+  }
+  .intro-pic img{
+    height: 300px;
+    width: 300px;
+    animation: animate-2 1s linear infinite;
+  }
+  @keyframes animate-2{
+    0%{
+      filter: hue-rotate(0deg);
+    }
+  
+    25%{
+      filter: hue-rotate(10deg);
+    }
+    50%{
+      filter: hue-rotate(20deg);
+    }
+    100%{
+      filter:hue-rotate(-10deg) ;
+    }
+  
+  }
+  #introduction-docs h2{
+    color:#0e0f46;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #acadeb ;
+  }
+  /* introduction doc -css end */
+  
+
+
+
+  
+  /* installation css start */
+  
+  
+  #installation-docs h1,h2{
+    color:#0e0f46;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #acadeb;
+  
+  }
+  
+  #installation-docs p,ol{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+  
+  button#btn-primary, button#btn-secondary {
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: var(--font-2);
+    border: 0.5px solid transparent;
+}
+
+button#btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+button#btn-secondary {
+  background-color: var(--nav-color);
+  color: var(--primary-color);
+}
+
+  
+  
+  
+  /* installation css end */
+  
+  
+  /* browser and devices css start */
+  
+  #devices-docs{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  }
+  #devices-docs h1{
+    color:#0e0f46;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #acadeb;
+  
+  }
+  .desktop img {
+    height: 36px;
+    width: 780px;
+  }
+  .mobile img{
+    height: 26px;
+    width: 350px;
+  }
+  
+  
+  /* browser and devices css end */

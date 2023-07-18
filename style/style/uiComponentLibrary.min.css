@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Kalam:wght@300;400;700&family=Sen:wght@400;700;800&display=swap');
+@import url("./GettingStarted.css");
+@import url("./button.css");
+@import url("./login_form.css");
+@import url("../navbar.css");
+@import url("./cards.css");
+@import url("./loader.css");
+@import url("./alert.css");
+@import url("./progress.css");
+/* nav-code */
+.desktop img {
+    height: 46px;
+    width: 850px;
+  }
+  .mobile img{
+    height: 46px;
+    width: 450px;
+  }
+
+
+:root {
+    --primary-color: rgb(0, 128, 128);
+    --secondary-color: #475569;
+    --tag-color: #1e40af;
+    --success-color: #115e59;
+    --danger-color: #7f1d1d;
+    --warning-color: #92400e;
+    --info-color: #6b21a8;
+    --light-color: #60a5fa;
+    --dark-color: #27272a;
+    --tags-color: #1d4ed8;
+    --font-1: 'Handlee', cursive;
+    --font-2: 'Kalam', cursive;
+    --font-3: 'Sen', sans-serif;
+}

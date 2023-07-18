@@ -1,0 +1,178 @@
+
+#buttons-docs .solid-btn,
+#buttons-docs .outlined-btn,
+#buttons-docs .tags-btn {
+    margin: 25px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.btn {
+    font-size: 1.1rem;
+    font-family: var(--font-3);
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 2px 2px 20px #00000033;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn:hover:not(button[class*=btn-outlined-]) {
+    opacity: 80%;
+}
+
+.btn:active {
+    transform: scale(0.95);
+    transition: 0.1s;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.btn-success {
+    background-color: var(--success-color);
+    color: white;
+}
+
+.btn-danger {
+    background-color: var(--danger-color);
+    color: white;
+}
+
+.btn-warning {
+    background-color: var(--warning-color);
+    color: white;
+}
+
+.btn-info {
+    background-color: var(--info-color);
+    color: white;
+}
+
+.btn-light {
+    background-color: var(--light-color);
+    color: white;
+}
+
+.btn-dark {
+    background-color: var(--dark-color);
+    color: white;
+}
+
+.btn-link {
+    background-color: transparent;
+    color: var(--tag-color);
+    text-decoration: underline;
+}
+
+.btn-outlined-primary {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn-outlined-secondary {
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+.btn-outlined-success {
+    border: 1px solid var(--success-color);
+    color: var(--success-color);
+}
+
+.btn-outlined-danger {
+    border: 1px solid var(--danger-color);
+    color: var(--danger-color);
+}
+
+.btn-outlined-warning {
+    border: 1px solid var(--warning-color);
+    color: var(--warning-color);
+}
+
+.btn-outlined-info {
+    border: 1px solid var(--info-color);
+    color: var(--info-color);
+}
+
+.btn-outlined-light {
+    border: 1px solid var(--light-color);
+    color: var(--light-color);
+}
+
+.btn-outlined-dark {
+    border: 1px solid var(--dark-color);
+    color: var(--dark-color);
+}
+
+.btn-outlined-link {
+    border: 1px solid transparent;
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+.btn-outlined-primary:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn-outlined-secondary:hover {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.btn-outlined-success:hover {
+    background-color: var(--success-color);
+    color: white;
+}
+
+.btn-outlined-danger:hover {
+    background-color: var(--danger-color);
+    color: white;
+}
+
+.btn-outlined-warning:hover {
+    background-color: var(--warning-color);
+    color: white;
+}
+
+.btn-outlined-info:hover {
+    background-color: var(--info-color);
+    color: white;
+}
+
+.btn-outlined-light:hover {
+    background-color: var(--light-color);
+    color: white;
+}
+
+.btn-outlined-dark:hover {
+    background-color: var(--dark-color);
+    color: white;
+}
+
+.btn-outlined-link:hover {
+    background-color: transparent;
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+.btn-tags {
+    background-color: var(--tags-color);
+    color: white;
+}
+
+#buttons-docs .tags-btn a {
+    text-decoration: none;
+}

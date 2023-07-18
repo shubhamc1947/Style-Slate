@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Montserrat:wght@600&family=Noto+Sans+Mono:wght@200&family=Paytone+One&family=Poppins:wght@900&family=Roboto+Condensed:wght@700&family=Roboto+Mono:wght@300&family=Sacramento&family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- extra EXtrernal links  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans&family=Inter:wght@900&family=Montserrat:wght@600&family=Noto+Sans+Mono:wght@200&family=Paytone+One&family=Philosopher:ital@0;1&family=Poppins:wght@900&family=Roboto+Condensed:wght@700&family=Roboto+Mono:wght@300&family=Sacramento&family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="image/favicon_io (1)/apple-touch-icon.png"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="image/favicon_io (1)/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="image/favicon_io (1)/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/image/favicon_io (1)/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans&family=Inter:wght@900&family=Montserrat:wght@600&family=Noto+Sans+Mono:wght@200&family=Paytone+One&family=Philosopher:ital@0;1&family=Poppins:wght@900&family=Roboto+Condensed:wght@700&family=Roboto+Mono:wght@300&family=Sacramento&family=Secular+One&family=Signika&display=swap"
+      rel="stylesheet"
+    />
+<!-- css -->
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Style Slate UI</title>
+  </head>
+
+  <body>
+
+    
+    <!-- navbar begin -->
+    <div class="navbar active">
+        <div class="logo">
+              <a href="index.html"><img src="image/logo.png" alt="logo"></a>
+          </div>
+        <div class="mobile-nav-btn mobile-nav-btn-right"    onclick="mobileNavShow()">
+            <ion-icon name="menu-outline" class="mobile-nav-icon "></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon "></ion-icon>
+        </div>
+        <ul class="left-nav">
+          <li class="Home li" >
+              <a class="home-slide" href="index.html">Home</a>
+          </li>
+          <li class="about li">
+              <a class="about-slide"   href="#about">About</a>
+          </li>
+          <li class="contactUs li">
+              <a class="contact-slide"  href="#contact-section">Contact Us</a>
+          </li>
+          <li class="docs li">
+              <a  class="docs-slide"  href="documentation.html">Documentation</a>
+          </li>
+        </ul>
+
+        <div class="right-nav">
+          <a href="https://www.linkedin.com/in/shubhamchat03/"><div class="lin-div"></div></a>
+          <a href="https://twitter.com/shubham_1947"><div class="git-div"></div></a>
+          <a href="https://github.com/shubhamc1947"><div class="twit-div"></div></a>
+        </div>
+      </div>
+    </div>
+
+
+    </div>
+    <!-- navbar end -->
+
+    <!-- section-1 code start -->
+    <section>
+      <div class="s1-div" id="about">
+        <div class="left-div">
+          <div class="text-1">
+            <div>
+              <h1>Let's make websites More Alive...</h1>
+              <h3>
+                We offer a comprehensive list of UI components <br />
+                to help you design your webpages instantly.
+              </h3>
+              <h4>
+                Let's Make web Design Easy.
+              </h4>
+              <a href="documentation.html"><button>Explore >></button></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-div">
+          <img
+             class="hero-img"
+            src="image/hero-section.gif"
+            alt="hero-section-img"
+            width="500"
+            height="500"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- section-1 code end -->
+
+    <!-- section 2 code start here : code snippet -->
+    <section class="code-snippet-section">
+      <div class="code-snippet-heading">
+        <h1>CDN Link</h1>
+        <h4>
+          Add these link to your head section to see the magic... 
+        </h4>
+      </div>
+      <div class="code-snippet">
+        <button id="copyBtn">Copy</button>
+        <pre class="language-html">
+            <code id="content">
+&lt;link rel="stylesheet" href="https://styleslate.netlify.app/style/style/uiComponentLibrary.min.css"&gt;
+&lt;script src="https://styleslate.netlify.app/js/js/uiComponentLibrary.min.js" &gt;&lt;/script&gt;</code>
+         </pre>
+         
+        </div>
+    </section>
+
+    <!-- section 2 code ends here : code snippet -->
+
+    <!-- contact us start here -->
+     <section class="contact-us" id="contact-section">
+        <form id="contact" action="mailto:shubhamchat224122@gmail.com" method="post" enctype="text/plain">
+        
+          <div class="section-heading">
+            <h4>Contact us</h4>
+          </div>
+
+          <div class="inputField">
+            <input type="name" name="name" id="name" placeholder="Your name" autocomplete="on" required>
+            <span class="valid_info_name"></span>
+          </div>
+
+          <div class="inputField">
+            <input type="Email" name="email" id="email" placeholder="Your email" required="" />
+            <span class="valid_info_email"></span>
+          </div>
+
+          <div class="inputField">
+            <textarea name="message" id="message" placeholder="Your message"></textarea>
+            <span class="valid_info_message"></span>
+          </div>
+
+          <div class="inputField btn">
+            <input type="submit" id="form-submit" class="main-gradient-button "   value="Send"> 
+            
+            <!-- <button type="submit" >Send a message</button> -->
+          </div>
+
+        </form>
+    </section>
+
+    <!-- contact us Ends here -->
+
+    <footer>
+      <div class="f1">
+        <div class="footer-icons">
+              <div class="footer-icon facebook">
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+              </div>
+              <div class="footer-icon github">
+                  <a href=""><i class="fab fa-github"></i></a>
+              </div>
+              <div class="footer-icon google">
+                  <a href=""><i class="fab fa-google"></i></a>
+              </div>
+              <div class="footer-icon twitter">
+                  <a href=""><i class="fab fa-twitter"></i></a>
+              </div>
+              <div class="footer-icon instagram">
+                  <a href=""><i class="fab fa-instagram"></i></a>
+              </div>
+              <div class="footer-icon linkedin">
+                  <a href=""><i class="fab fa-linkedin"></i></a>
+              </div>
+          </div>
+      </div>
+      <div class="f2">
+          <p>&copy; 2023 Copyright &copy;: Style-Slate</p>
+      </div>
+  </footer>
+  <!-- footer ends here-->
+
+<!-- code snippet copy script here -->
+  <script>
+    // Get the copy button and content div
+    const copyBtn = document.getElementById('copyBtn');
+    const contentDiv = document.getElementById('content');
+
+    // Add event listener to the copy button
+    copyBtn.addEventListener('click', () => {
+      // Create a range object and select the content
+      const range = document.createRange();
+      range.selectNode(contentDiv);
+
+      // Add the selected content to the clipboard
+      window.getSelection().addRange(range);
+      document.execCommand('copy');
+
+      // Clear the selection
+      window.getSelection().removeAllRanges();
+
+      // Update the button text temporarily
+      copyBtn.textContent = 'Copied!';
+      setTimeout(() => {
+        copyBtn.textContent = 'Copy';
+      }, 1500);
+    });
+
+  </script>
+
+  <!-- scripts here -->
+   
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- <script src="/js/code-snippet.js"></script> -->
+    <script src="/js/index.js"></script>
+  </body>
+</html>
